@@ -1,0 +1,34 @@
+{
+  "fitbit": {
+    "appUUID": "28f0ab83-9cd3-4606-a8a3-9c1d85070215",
+    "appType": "clockface",
+    "appDisplayName": "TestClock",
+    "iconFile": "resources/avengers.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_exercise",
+      "access_heart_rate",
+      "access_internet",
+      "access_location",
+      "access_user_profile",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "TestClock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.0.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

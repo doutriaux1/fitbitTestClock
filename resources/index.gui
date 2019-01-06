@@ -1,0 +1,16 @@
+<svg>
+  <image href="avengers-recast.jpg"/>
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <image href="ironman.png" width="64" height="110"  x="$-32" y="-110"/>
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <image href="thor-avengers-png-6.png" width="40" height="75"  x="$-20" y="-75"/>
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <image href="captain_america5.png" width="64" height="125"  x="$-32" y="-125"/>
+  </g>
+  <circle cx="50%" cy="50%" r="10" fill="#444444" />
+  <text class="sensors" id="altitude" x="10" y="15">Altitude is: --</text>
+  <text class="sensors" id="hr" x="10" y="30">Heart Rate is: --</text>
+  <text class="sensors" id="steps" x="10" y="45">Steps: --</text>
+</svg>
